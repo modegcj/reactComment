@@ -1,0 +1,31 @@
+li{
+    border-bottom: 1px solid #BEBEBD;
+    padding: 10px 5px;
+    overflow: hidden;
+    color: #666666;
+}
+li i{
+    color: #3385ff;
+    font-style: oblique;
+    margin-right: 5px;
+}
+li span{
+    font-size: 10px;
+    color: #999999;
+    float: right;
+}
+li p{
+    overflow: hidden;
+    float: right;
+    width: 100%;
+}
+li p span{
+    margin-top: 2px;
+    font-size: 10px;
+    color: #FF1111;
+    cursor: pointer;
+    visibility: hidden;
+}
+li:hover p span{
+    visibility: visible;
+}
